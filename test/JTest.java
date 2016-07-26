@@ -13,11 +13,11 @@ import java.util.List;
  */
 public class JTest {
 
-    @Test
+    @Test  //Is the string reversed?
     public void hasTheStringBeenReversed()
     {
         ReverseString reverseString = new ReverseString();
-        Assert.assertEquals("SLLAB", reverseString.reverse("BALLS"));
+        Assert.assertEquals("OLLEH", reverseString.reverse("HELLO"));
     }
 
 }
