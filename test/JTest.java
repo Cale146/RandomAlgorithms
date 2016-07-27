@@ -17,7 +17,7 @@ public class JTest {
     public void hasTheStringBeenReversed()
     {
         ReverseString reverseString = new ReverseString();
-        Assert.assertEquals("OLLEH", reverseString.reverse("HELLO"));
+        Assert.assertEquals("REVERSE", reverseString.reverse("ESREVER"));
     }
 
 }
