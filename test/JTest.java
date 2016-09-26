@@ -30,10 +30,18 @@ public class JTest {
     }
 
     @Test
-    public void oWeNeedAGasRefillTestTwo()
+    public void doWeNeedAGasRefillTestTwo()
     {
         double[] driveDistancesTwo = {10,20,30,90,40,50};
         GasMileage gasMileage = new GasMileage();
         assertTrue(gasMileage.gasPrediction(driveDistancesTwo, 10, 1.9));
+    }
+
+    @Test
+    public void addTheElementsInTheArray()
+    {
+        int[] integerArray = {1, 2, 3, 4, 10, 11};
+        ArrayAdd addArray = new ArrayAdd();
+        assertEquals(addArray.addTheArray(integerArray), 31);
     }
 }
