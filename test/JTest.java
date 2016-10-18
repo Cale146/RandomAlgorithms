@@ -21,6 +21,12 @@ public class JTest {
         Assert.assertEquals("REVERSE", reverseString.reverse("ESREVER"));
     }
 
+    @Test //Is the string a palindrome
+    public void isTheStringAPalindrome()
+    {
+        Palindrome palinDrome = new Palindrome();
+    }
+
     @Test
     public void doWeNeedAGasRefillTestOne()
     {
