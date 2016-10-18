@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="d04ae9c7-4b1e-4c97-9402-da277f5434b2" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Palindrome.java" afterPath="$PROJECT_DIR$/src/Palindrome.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/JTest.java" afterPath="$PROJECT_DIR$/test/JTest.java" />
     </list>
     <ignored path="JUnitTest.iws" />
@@ -33,7 +32,7 @@
         <entry file="file://$PROJECT_DIR$/test/JTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="34" column="73" selection-start-line="34" selection-start-column="73" selection-end-line="34" selection-end-column="73" />
+              <caret line="55" column="68" selection-start-line="55" selection-start-column="68" selection-end-line="55" selection-end-column="68" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -41,11 +40,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Palindrome.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Palindrome.java">
+      <file leaf-file-name="Anagram.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Anagram.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6760563">
-              <caret line="19" column="25" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
+            <state vertical-scroll-proportion="0.69302326">
+              <caret line="31" column="8" selection-start-line="31" selection-start-column="8" selection-end-line="31" selection-end-column="8" />
               <folding />
             </state>
           </provider>
@@ -77,8 +76,9 @@
         <option value="$PROJECT_DIR$/src/arrayAdd.java" />
         <option value="$PROJECT_DIR$/src/ArrayAdd.java" />
         <option value="$PROJECT_DIR$/src/Test.java" />
-        <option value="$PROJECT_DIR$/test/JTest.java" />
         <option value="$PROJECT_DIR$/src/Palindrome.java" />
+        <option value="$PROJECT_DIR$/test/JTest.java" />
+        <option value="$PROJECT_DIR$/src/Anagram.java" />
       </list>
     </option>
   </component>
@@ -511,34 +511,34 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="JTest - 2016.10.18 at 14h 44m 06s.xml">
+    <history-entry file="JTest - 2016.10.18 at 16h 51m 55s.xml">
       <configuration name="JTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="JTest - 2016.10.18 at 14h 44m 39s.xml">
+    <history-entry file="JTest - 2016.10.18 at 16h 52m 09s.xml">
       <configuration name="JTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="JTest - 2016.10.18 at 14h 45m 13s.xml">
+    <history-entry file="JTest - 2016.10.18 at 16h 53m 20s.xml">
       <configuration name="JTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="JTest - 2016.10.18 at 14h 45m 24s.xml">
+    <history-entry file="JTest - 2016.10.18 at 16h 58m 53s.xml">
       <configuration name="JTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="JTest - 2016.10.18 at 14h 45m 52s.xml">
+    <history-entry file="JTest - 2016.10.18 at 16h 59m 38s.xml">
       <configuration name="JTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="JTest - 2016.10.18 at 14h 46m 00s.xml">
+    <history-entry file="JTest - 2016.10.18 at 17h 03m 15s.xml">
       <configuration name="JTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="JTest - 2016.10.18 at 14h 46m 05s.xml">
+    <history-entry file="JTest - 2016.10.18 at 17h 04m 01s.xml">
       <configuration name="JTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="JTest - 2016.10.18 at 14h 47m 54s.xml">
+    <history-entry file="JTest - 2016.10.18 at 17h 04m 07s.xml">
       <configuration name="JTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="JTest - 2016.10.18 at 14h 48m 43s.xml">
+    <history-entry file="JTest - 2016.10.18 at 17h 05m 28s.xml">
       <configuration name="JTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="JTest - 2016.10.18 at 14h 49m 13s.xml">
+    <history-entry file="JTest - 2016.10.18 at 17h 07m 00s.xml">
       <configuration name="JTest" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -559,7 +559,7 @@
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32480535" sideWeight="0.4826087" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32480535" sideWeight="0.4826087" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32925472" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39822024" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -592,7 +592,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="54" />
+      <option name="time" value="67" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="JUnit">
@@ -968,20 +968,28 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Palindrome.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.8028169">
+          <caret line="19" column="25" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/test/JTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="34" column="73" selection-start-line="34" selection-start-column="73" selection-end-line="34" selection-end-column="73" />
+          <caret line="55" column="68" selection-start-line="55" selection-start-column="68" selection-end-line="55" selection-end-column="68" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Palindrome.java">
+    <entry file="file://$PROJECT_DIR$/src/Anagram.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6760563">
-          <caret line="19" column="25" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
+        <state vertical-scroll-proportion="0.69302326">
+          <caret line="31" column="8" selection-start-line="31" selection-start-column="8" selection-end-line="31" selection-end-column="8" />
           <folding />
         </state>
       </provider>

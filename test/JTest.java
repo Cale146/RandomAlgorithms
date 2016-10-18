@@ -35,6 +35,27 @@ public class JTest {
         assertEquals("No", palinDrome.isAPalindrome("thisisnotapalindrome"));
     }
 
+    @Test //Anagram class -- Is the string an anagram Yes?
+    public void isTheStringAnAnagramOne()
+    {
+        Anagram anagram = new Anagram();
+        assertEquals("Anagrams", anagram.isAnAnagram("anagram", "margana"));
+    }
+
+    @Test //Anagram class -- Is the string an anagram Yes?
+    public void isTheStringAnAnagramTwo()
+    {
+        Anagram anagram = new Anagram();
+        assertEquals("Not Anagrams", anagram.isAnAnagram("anagramm", "marganaa"));
+    }
+
+    @Test //Anagram class -- Is the string an anagram Yes?
+    public void isTheStringAnAnagramThree()
+    {
+        Anagram anagram = new Anagram();
+        assertEquals("Anagrams", anagram.isAnAnagram("Hello", "hello"));
+    }
+
     @Test
     public void doWeNeedAGasRefillTestOne()
     {
