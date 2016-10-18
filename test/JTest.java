@@ -1,9 +1,9 @@
 import junit.framework.Assert;
 import org.junit.Before;
 import org.junit.Test;
-
 import static junit.framework.Assert.assertFalse;
 import static junit.framework.Assert.assertNotNull;
+import static junit.framework.Assert.assertNotSame;
 import static junit.framework.TestCase.assertEquals;
 import static junit.framework.TestCase.assertTrue;
 import java.util.ArrayList;
@@ -21,11 +21,18 @@ public class JTest {
         assertEquals("REVERSE", reverseString.reverse("ESREVER"));
     }
 
-    @Test //Palindrome class -- Is the string a palindrome
-    public void isTheStringAPalindrome()
+    @Test //Palindrome class -- Is the string a palindrome Yes?
+    public void isTheStringAPalindromeOne()
     {
         Palindrome palinDrome = new Palindrome();
-        assertTrue("madam", palinDrome.isAPalindrome());
+        assertEquals("Yes", palinDrome.isAPalindrome("racecar"));
+    }
+
+    @Test //Palindrome class -- Is the string a palindrome No?
+    public void isTheStringAPalindromeTwo()
+    {
+        Palindrome palinDrome = new Palindrome();
+        assertEquals("No", palinDrome.isAPalindrome("thisisnotapalindrome"));
     }
 
     @Test
