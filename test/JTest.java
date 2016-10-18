@@ -14,17 +14,18 @@ import java.util.List;
  */
 public class JTest {
 
-    @Test  //Is the string reversed?
+    @Test  //ReverseString class -- Is the string reversed?
     public void hasTheStringBeenReversed()
     {
         ReverseString reverseString = new ReverseString();
-        Assert.assertEquals("REVERSE", reverseString.reverse("ESREVER"));
+        assertEquals("REVERSE", reverseString.reverse("ESREVER"));
     }
 
-    @Test //Is the string a palindrome
+    @Test //Palindrome class -- Is the string a palindrome
     public void isTheStringAPalindrome()
     {
         Palindrome palinDrome = new Palindrome();
+        assertTrue("madam", palinDrome.isAPalindrome());
     }
 
     @Test
