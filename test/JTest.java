@@ -15,68 +15,65 @@ import java.util.List;
 public class JTest {
 
     @Test  //ReverseString class -- Is the string reversed?
-    public void hasTheStringBeenReversed()
-    {
+    public void hasTheStringBeenReversed() {
         ReverseString reverseString = new ReverseString();
         assertEquals("REVERSE", reverseString.reverse("ESREVER"));
     }
 
     @Test //Palindrome class -- Is the string a palindrome Yes?
-    public void isTheStringAPalindromeOne()
-    {
+    public void isTheStringAPalindromeOne() {
         Palindrome palinDrome = new Palindrome();
         assertEquals("Yes", palinDrome.isAPalindrome("racecar"));
     }
 
     @Test //Palindrome class -- Is the string a palindrome No?
-    public void isTheStringAPalindromeTwo()
-    {
+    public void isTheStringAPalindromeTwo() {
         Palindrome palinDrome = new Palindrome();
         assertEquals("No", palinDrome.isAPalindrome("thisisnotapalindrome"));
     }
 
     @Test //Anagram class -- Is the string an anagram Yes?
-    public void isTheStringAnAnagramOne()
-    {
+    public void isTheStringAnAnagramOne() {
         Anagram anagram = new Anagram();
         assertEquals("Anagrams", anagram.isAnAnagram("anagram", "margana"));
     }
 
     @Test //Anagram class -- Is the string an anagram Yes?
-    public void isTheStringAnAnagramTwo()
-    {
+    public void isTheStringAnAnagramTwo() {
         Anagram anagram = new Anagram();
         assertEquals("Not Anagrams", anagram.isAnAnagram("anagramm", "marganaa"));
     }
 
     @Test //Anagram class -- Is the string an anagram Yes?
-    public void isTheStringAnAnagramThree()
-    {
+    public void isTheStringAnAnagramThree() {
         Anagram anagram = new Anagram();
         assertEquals("Anagrams", anagram.isAnAnagram("Hello", "hello"));
     }
 
     @Test
-    public void doWeNeedAGasRefillTestOne()
-    {
+    public void doWeNeedAGasRefillTestOne() {
         double[] driveDistancesOne = {12,6,17,5,20};
         GasMileage gasMileage = new GasMileage();
         assertFalse(gasMileage.gasPrediction(driveDistancesOne, 0.25, 25));
     }
 
     @Test
-    public void doWeNeedAGasRefillTestTwo()
-    {
+    public void doWeNeedAGasRefillTestTwo() {
         double[] driveDistancesTwo = {10,20,30,90,40,50};
         GasMileage gasMileage = new GasMileage();
         assertTrue(gasMileage.gasPrediction(driveDistancesTwo, 10, 1.9));
     }
 
     @Test
-    public void addTheElementsInTheArray()
-    {
+    public void addTheElementsInTheArray(){
         int[] integerArray = {1, 2, 3, 4, 10, 11};
         ArrayAdd addArray = new ArrayAdd();
         assertEquals(addArray.addTheArray(integerArray), 31);
+    }
+
+    @Test
+    public void ifDivisibleByThreeItPrintsFizz(){
+        FizzBuzz fizzbuzz = new FizzBuzz();
+        assertEquals("fizz", fizzbuzz.fizzOrBuzz(9), "fizz");
     }
 }
