@@ -14,6 +14,7 @@ import java.util.List;
  */
 public class JTest {
 
+    /*
     @Test  //ReverseString class -- Is the string reversed?
     public void hasTheStringBeenReversed() {
         ReverseString reverseString = new ReverseString();
@@ -74,6 +75,56 @@ public class JTest {
     @Test
     public void ifDivisibleByThreeItPrintsFizz(){
         FizzBuzz fizzbuzz = new FizzBuzz();
-        assertEquals("fizz", fizzbuzz.fizzOrBuzz(9), "fizz");
+        assertEquals(fizzbuzz.fizzOrBuzz(9), "fizz");
+    }
+
+    @Test
+    public void ifDivisibleByFiveItPrintsBuzz(){
+        FizzBuzz fizzBuzz = new FizzBuzz();
+        assertEquals(fizzBuzz.fizzOrBuzz(25), "buzz");
+    }
+
+    @Test
+    public void ifDivisibleByBothThreeAndFiveItPrintsFizzBuzz(){
+        FizzBuzz fizzBuzz = new FizzBuzz();
+        assertEquals(fizzBuzz.fizzOrBuzz(30), "fizzbuzz");
+    }
+
+    @Test
+    public void ifNotDivisibleByAnythingItPrintsNeither(){
+        FizzBuzz fizzBuzz = new FizzBuzz();
+        assertEquals(fizzBuzz.fizzOrBuzz(29), "Not divisible by 3 or 5");
+    }
+
+
+    @Test
+    public void ifNegativeInputReturnZero(){
+        Fibbonacci fib = new Fibbonacci();
+        assertEquals(fib.fibToN(-10, 5), 0);
+    }
+
+    @Test
+    public void ifZeroInputReturnZero(){
+        Fibbonacci fib = new Fibbonacci();
+        assertEquals(fib.fibToN(0, 15), 0);
+    }
+
+    @Test
+    public void ifInputIsOneAndNIsFive(){
+        Fibbonacci fib = new Fibbonacci();
+        assertEquals(fib.fibToN(1, 5), 13);
+    }
+
+    @Test
+    public void ifInputIsOneAndNIsEight(){
+        Fibbonacci fib = new Fibbonacci();
+        assertEquals(fib.fibToN(1, 6), 21);
+    }
+    */
+    @Test
+    public void testArraySort(){
+        Duplicate dup = new Duplicate();
+        int[] a = {2, 1, 3, 5, 3, 2};
+        dup.firstDuplicate(a);
     }
 }
