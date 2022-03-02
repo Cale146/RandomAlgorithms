@@ -14,7 +14,7 @@ import java.util.List;
  */
 public class JTest {
 
-    /*
+
     @Test  //ReverseString class -- Is the string reversed?
     public void hasTheStringBeenReversed() {
         ReverseString reverseString = new ReverseString();
@@ -116,11 +116,17 @@ public class JTest {
     }
 
     @Test
-    public void ifInputIsOneAndNIsEight(){
+    public void ifInputIsOneAndNIsSix(){
         Fibbonacci fib = new Fibbonacci();
         assertEquals(fib.fibToN(1, 6), 21);
     }
-    */
+
+    @Test
+    public void ifInputIsOneAndNIs7(){
+        Fibbonacci fib = new Fibbonacci();
+        assertFalse(fib.fibToN(1, 7) == 500);
+    }
+
     @Test
     public void testArraySort(){
         Duplicate dup = new Duplicate();
